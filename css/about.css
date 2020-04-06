@@ -1,0 +1,26 @@
+.pic-text {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.space {
+    text-decoration: none;
+}
+#farm {
+    background: url("../img/farm.jpg");
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#memes {
+    background: url("../img/memes.jpg");
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
