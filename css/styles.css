@@ -1,8 +1,14 @@
 /*global*/
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
-body {
-    background-image: linear-gradient(white,black);
+html,body {
+    background-image: linear-gradient(white,black,green,red);
+    height: 100%;
+}
+
+
+.img {
+    object-fit: cover;
 }
 
 .white-text {
@@ -28,7 +34,8 @@ body {
 .nav-tabs {
   background-color: royalblue !important;
   border-style: none !important;
-  font-weight: 900 !important;
+  font-weight: 800 !important;
+  
 }
 
 .nav a {
@@ -98,15 +105,18 @@ body {
 }
 
 #guitar-background {
-  background-image: url('../img/lute.jpg');
+  background-image: url('../img/lute.png');
+  background-size: contain;
 }
 
 #drums-background {
-  background-image: url('../img/mevil.jpg');
+ background-image: url('../img/mevil.png');
+ background-size: contain;
 }
 
 #headphones1-background {
-  background-image: url('../img/headphones1.jpg');
+  background-image: url('../img/headphones1.png');
+  background-size:contain;
 }
 
 #headphones2-background {
@@ -139,7 +149,7 @@ body {
   z-index: 999;
   text-align: center;
   position: relative;
-  text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+  text-shadow: -5px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
 }
 
 #navbar {
@@ -148,10 +158,27 @@ body {
 
 /*thumbnails*/
 
-.thumbnail {
-  background-color: #edf1f4;
-  padding: 15px;
+
+
+
+/* extra positioning */
+
+.thumbnail img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 200px;
 }
+
+.img-center {
+    text-align: center;
+    border-radius: 8px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
 
 /*services style*/
 
